@@ -1,13 +1,14 @@
-#include "shape.hpp"
+#include "Shape.hpp"
 
-Shape::Shape(std::string lab){
-    this->label = lab
+
+Geometry::Shape::Shape(std::string lab){
+    this->label = lab;
 }
 
-Shape::setLabel(std::string lab){
-    this->label = lab
+void Geometry::Shape::setLabel(std::string lab){
+    this->label = lab;
 }
 
-Shape::getLabel(){
-    return this->label
+std::string Geometry::Shape::getLabel() const{
+    return this->label;
 }
