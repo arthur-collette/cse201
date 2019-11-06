@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "new": "cpp",
+        "complex": "cpp",
+        "chrono": "cpp",
+        "bitset": "cpp",
+        "system_error": "cpp",
+        "typeinfo": "cpp"
+    }
+}
