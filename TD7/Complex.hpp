@@ -32,8 +32,6 @@ public:
             std::cout << getReal() << getImaginary() << "*i" << std::endl;
         }
     }
-        
-
     Complex operator-(){
         return Complex(-real, -imaginary);
     }

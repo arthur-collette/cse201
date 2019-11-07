@@ -68,7 +68,7 @@ Complex Complex::fromMax(){
   return max;
 }
 Complex Complex::operator-(){
-    return Complex(real, -imaginary);
+    return Complex(-real, -imaginary);
 }
 Complex Complex::operator+(const Complex &other){
     return Complex(real + other.real, imaginary + other.imaginary);
